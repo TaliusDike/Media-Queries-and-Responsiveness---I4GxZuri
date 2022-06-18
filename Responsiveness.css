@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1440px;
+    min-height: 80vh;
+    /* border: 2px solid red; */
+    display: flex;
+    background-color: hsl(0, 100%, 74%);
+    background-image: url("bg-intro-desktop.png");
+    justify-content: center;
+}
+
+.left-side, .right-side {
+    margin: auto;
+}
+
+.right-side {
+    margin-right: 200px;
+}
+
+.header1, .para1 {
+    color: white;
+    padding-left: 150px;
+    /* padding-right: 100px; */
+}
+
+.header1 {
+    padding-bottom: 20px;
+}
+
+.header1 h1 {
+    font-size: 70px;
+}
+
+.para1 p {
+    font-size: 16px;
+}
+
+.para2 {
+    background-color: hsl(248, 32%, 49%);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.para2 p {
+    color: white;
+    font-size: small;
+    font-weight: 400;
+    text-align: center;
+}
+
+.form1 {
+    background-color: white;
+    width: 375px;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 20px 20px 20px 0px rgba(red, green, blue, alpha);
+    padding-top: 10px;
+    
+}
+
+.form1 div {
+    padding: 12px 20px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.btn-green {
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+}
+
+.btn-green:hover {
+/* opacity: 1; */
+cursor: pointer;
+background-color: hsl(154, 64%, 41%);
+
+}
+
+.after-note p {
+font-size: 10px;
+text-align: center;
+padding-top: 0;
+font-weight: 500;
+}
+
+span {
+    color: hsl(0, 100%, 74%) ;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    display:block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 375px;
+    
+}
+
+    .header1 h1 {
+font-size: 30px;
+text-align: center;
+
+    }
+
+    .para2 p {
+        text-align: center;
+    }
+
+.form1 {
+    padding: 10px;
+}
+
+
+}
